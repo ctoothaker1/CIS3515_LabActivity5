@@ -11,7 +11,7 @@ class CustomAdapter(private val names: List<String>, private val context: Contex
     // How many items are in the collection
     override fun getCount(): Int {
         return names.size   //bug: always returns 5
-    }
+    } // bug fixed
 
     // Fetch an item from the collection
     override fun getItem(p0: Int): Any {
